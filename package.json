@@ -1,23 +1,16 @@
 {
-  "name": "parth-live-frontend",
+  "name": "parth-live-backend",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "dev": "node --watch server.js",
+    "start": "node server.js"
   },
   "dependencies": {
-    "@livekit/components-react": "^2.9.9",
-    "@livekit/components-styles": "^1.1.6",
-    "livekit-client": "^2.9.6",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.28.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.4",
-    "vite": "^6.0.5"
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "livekit-server-sdk": "^2.9.6"
   }
 }
