@@ -3,8 +3,7 @@ import { Link, Route, Routes, useParams } from 'react-router-dom';
 import { LiveKitRoom, VideoConference, useTracks, VideoTrack } from '@livekit/components-react';
 import { Track } from 'livekit-client';
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:3001';
-
+const API = 'https://parth-live-backend.onrender.com';
 function Admin() {
   const [pin,setPin] = useState('');
   const [title,setTitle] = useState('Parth Live Room');
