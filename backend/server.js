@@ -1,4 +1,4 @@
-import 'dotenv/config';"^16.6.1"
+import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import crypto from 'node:crypto';
